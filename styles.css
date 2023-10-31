@@ -1,0 +1,619 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* #container {
+     padding: 0 30px;;
+} */
+
+body {
+    margin: auto;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8.5vw;
+    font-weight: 700;
+    text-align: left;
+    color: black;
+    padding: 0 30px;
+    position: relative;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    color: black;
+    padding: 0 30px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    color: black;
+    padding: 0 30px;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    color: black;
+    padding: 0 30px;
+}
+
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: black;
+    padding: 0 30px;
+}
+
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #5885E1;
+    margin-bottom: 0;
+    padding: 0 30px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: black;
+    margin-top: 0;
+    padding: 0 30px;
+}
+
+.address {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    color: black;
+    padding: 0 30px;
+}
+
+.sage-h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    padding: 50px 30px;
+    background-image: url("images/sage-gradient.jpg");
+}
+
+.sage-h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: #134f5c;
+    padding: 0 30px;
+}
+
+.sage-h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #5a988d;
+    margin-bottom: 10px;
+    padding: 0 30px;
+}
+
+.sage-card {
+    margin: auto;
+}
+
+.finance-frog-h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: #566CE0;
+    padding: 0 30px;
+}
+
+.finance-frog-h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #2141D9;
+    margin-bottom: 10px;
+    padding: 0 30px;
+}
+
+.menstruation-education-h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: #D13F01;
+    padding: 0 30px;
+}
+
+.menstruation-education-h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #B53802;
+    margin-bottom: 10px;
+    padding: 0 30px;
+}
+
+
+#samantha {
+    color: #4D69CB;
+}
+
+.sage-image, .oasis-image, .menstruation-education-image, .finance-frog-image {
+    padding: 0;
+}
+
+iframe {
+    margin: 0 auto;
+    width: 100vw;
+    padding: 0 30px;
+    border: 0px;
+}
+
+blockquote {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: left;
+    color: black;
+    margin-top: 0;
+    padding: 10px 30px;
+    border-left: 5px solid #5a988d;
+}
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: black;
+    margin-top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 30px 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+li {
+    padding: 10px;
+}
+
+ol {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: black;
+    margin-top: 0;
+    padding: 0 30px;
+}
+
+header {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.paper-plane {
+    display: flex;
+    position: absolute;
+    width: 15vw;
+    box-sizing: content-box;
+    height: auto;
+    top: -25%;
+    right: 10%;
+}
+
+.sparkles {
+    display: flex;
+    position: absolute;
+    box-sizing: content-box;
+    left: -4%;
+    top: 25%;
+    width: 5vw;
+    height: auto;
+}
+
+.matcha {
+    display: flex;
+    position: absolute;
+    box-sizing: content-box;
+    top: 65%;
+    left: 80%;
+    height: auto;
+    width: 7vw;
+}
+
+article {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.sage {
+    background-color: #C8D7D4;
+    border-radius: 20px;
+    margin: 0 30px;
+    padding: 0 0;
+    transition: 0.5s;
+}
+
+.sage:hover, .oasis:hover, .finance-frog:hover, .menstruation-education:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.oasis {
+    background-color: #D4E3F4;
+    border-radius: 20px;
+    margin: 0 30px;
+    transition: 0.5s;
+}
+
+.finance-frog {
+    background-color: #ACB4DA;
+    border-radius: 20px;
+    margin: 0 30px;
+    transition: 0.5s;
+}
+
+.menstruation-education {
+    background-color: #FEF3E3;
+    border-radius: 20px;
+    margin: 0 30px;
+    transition: 0.5s;
+}
+
+.card-image {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 50px;
+}
+
+.card-text {
+    padding: 10px 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright {
+    display: block;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.connect {
+    padding: 50px 30px;
+    background-image: url("images/banner.png");
+}
+
+.case-study-title {
+    padding: 50px 0 0 0;
+}
+
+.project-goal-1, .project-goal-2, .project-goal-3 {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 30px 30px 10px 30px ;
+    margin: 30px;
+}
+
+img.numbers {
+    padding: 0;
+}
+
+.numbers {
+    aspect-ratio: 1/1;
+    height: 30px;
+    box-sizing: revert;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.survey-chart {
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+.survey-insights {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.survey-insight-1 {
+    display: block;
+    max-width: 50%;
+    font-size: 12px;
+    text-align: center;
+    padding-right: 0;
+}
+
+.survey-insight-2 {
+    display: block;
+    max-width: 100%;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 0;
+}
+
+.survey-chart-1, .survey-chart-2 {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+}
+
+.me {
+    display: flex;
+    border-radius: 100px;
+    aspect-ratio: auto;
+    /* width: 200px; */
+    margin: auto;
+}
+
+.about, .education, .experience, .hobbies {
+    padding: 30px 0;
+}
+
+.sketches {
+    width: 100%;
+}
+
+.gif-ul, .testing-ul {
+    display: block;
+    list-style-type: circle;
+    margin: 0 30px;
+    padding: 0 30px;
+}
+
+ol {
+    margin: 0 30px;
+}
+
+.contact-info {
+    text-decoration-line: underline;
+}
+
+@media only screen and (min-width: 600px) {
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 90px; */
+    font-weight: 700;
+    text-align: left;
+    color: black;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    color: black;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    color: black;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    color: black;
+}
+
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: black;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: black;
+}
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: black;
+    margin-top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.sage-oasis, .finance-menstruationeducation {
+    display: flex;
+    padding: 30px;
+}
+
+.sage-hero-image {
+    background-color: #C8D7D3;
+}
+
+img, .sage-image, .team {
+    margin: auto;
+}
+
+.project-goals, .main-insights {
+    display: flex;
+}
+
+.survey-insights {
+    justify-content: space-evenly;
+}
+
+.insights1-2, .insights3-4 {
+    width: 50vw;
+}
+
+.onboarding-feedback, .home-feedback, .explore-feedback, .profile-feedback {
+    display: flex;
+    max-width: 100%;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.onboarding-feedback img, .home-feedback img, .explore-feedback img, .profile-feedback img {
+    width: 50vw;
+}
+
+.onboarding-flow, .playlist-flow, .favorites-flow, .explore-flow, .special-collections-flow, .garden-flow, .calendar-flow, .meditation-flow {
+    display: flex;
+}
+
+.bullet-points {
+    align-items: center; 
+    margin: auto;
+}
+
+.onboarding-flow img, .playlist-flow img, .favorites-flow img, .explore-flow img, .special-collections-flow img, .garden-flow img, .calendar-flow img, .meditation-flow img {
+    width: 400px;
+}
+
+.our-team {
+    width: 40vw;
+    border-radius: 50px;
+}
+
+#conclusion {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caption {
+    margin: auto auto auto 0;
+}
+
+.oasis-introduction {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wcag, .colors, .typography {
+    width: 500px;
+}
+
+iframe {
+    width: 70vw;
+    aspect-ratio: auto;
+}
+
+.conclusion {
+    display: block;
+}
+
+.finance-frog-image {
+    background-color: #ACB4DA;
+}
+
+.about, .background, .hobbies {
+    display: flex;
+
+}
+
+.me, .education {
+    width: 40vw;
+}
+
+.kamakura, .arashiyama, .tokyo {
+    display: flex;
+    width: 33vw;
+    padding: 30px 0;
+}
+
+.sketch-images, .user-personas {
+    display: flex;
+}
+
+.menstruation-education-hero-image {
+    background-color: #FEF3E3;
+}
+
+.reading, .nature, .sudoku {
+    width: 33vw;
+}
+
+.email, .linkedin, .contact-info {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    color: #4D69CB;
+    padding: 0 30px;
+}
+}
